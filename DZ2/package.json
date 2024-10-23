@@ -1,0 +1,14 @@
+{
+  "name": "fahrenheit-converter-dz2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Shramko",
+  "license": "ISC",
+  "description": "conversion from Celsius to Fahrenheit",
+  "dependencies": {
+    "fahrenheit-converter-dz2": "file:"
+  }
+}
