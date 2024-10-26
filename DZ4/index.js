@@ -30,7 +30,7 @@ async function loadUsers() {
   loadUsers();  
  
 
-//сохранение в save_users через SON.stringify() !
+//сохранение в save_users через JSON.stringify() !
 async function saveUsers() {
     await fs.writeFile(usersFile, JSON.stringify(users, null, 2));
   }
